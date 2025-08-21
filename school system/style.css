@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #f6d365, #fda085);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+h2, h3 { text-align: center; color: #333; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+form input, form textarea, form button {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #ff7f50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover { background: #ff6347; }
+
+.card {
+  background: #f0f8ff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+nav a { text-decoration: none; color: #333; font-weight: bold; }
+nav a:hover { color: #ff6347; }
+
+button.logout-btn {
+  background: #ff4d4d;
+  color: #fff;
+  float: right;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button.logout-btn:hover { background: #e60000; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('images/schoolPic.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.admin-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 0;
+}
+
+/* Dashboard container styling */
+.dashboard-container {
+  background-color: rgba(255, 255, 255, 0.95); /* semi-transparent white */
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+/* Headings */
+h2, h3 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form styling */
+.post-form input,
+.post-form select,
+.post-form textarea,
+.post-form button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Submit button */
+.post-form button {
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.post-form button:hover {
+  background-color: #45a049;
+}
+
+/* Logout button */
+.logout-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.logout-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Posts container */
+.posts-container .card {
+  background-color: #f7f7f7;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Post headings */
+.posts-container .card h4 {
+  margin: 0 0 10px;
+}
+
+/* Links and buttons inside post cards */
+.posts-container .card a,
+.posts-container .card button {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #1a73e8;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.posts-container .card button:hover,
+.posts-container .card a:hover {
+  text-decoration: underline;
+}

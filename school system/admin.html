@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="admin-wrapper">
+    <div class="dashboard-container">
+      <h2>Admin Dashboard</h2>
+      <button id="logoutBtn" class="logout-btn">Logout</button>
+
+      <h3>Post for Parent</h3>
+      <form id="postForm" class="post-form">
+        <input type="email" id="parentEmail" placeholder="Parent Email" required>
+        <input type="text" id="childId" placeholder="Child ID" required>
+        <select id="postType" required>
+          <option value="">Select Type</option>
+          <option value="reports">Report</option>
+          <option value="letters">Letter</option>
+          <option value="meetings">Meeting</option>
+          <option value="performance">Performance</option>
+        </select>
+        <input type="text" id="postTitle" placeholder="Title" required>
+        <textarea id="postDesc" placeholder="Description"></textarea>
+        <input type="file" id="postFile" accept=".pdf">
+        <button type="submit">Post</button>
+      </form>
+
+      <h3>All Posts</h3>
+      <div id="adminPosts" class="posts-container"></div>
+    </div>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
